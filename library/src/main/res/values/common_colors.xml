@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_pressed">#FFE0E0E0</color>
+    <color name="black">#FF000000</color>
+
+    <color name="color_red_primary">#FFE63337</color>
+    <!-- 页面背景主颜色 -->
+    <color name="color_bg_primary">#FFF4F4F4</color>
+    <!-- 线条(横向、纵向主颜色) -->
+    <color name="color_line">#FFD8D8D8</color>
+    <!-- 输入框Hint文字主颜色 -->
+    <color name="color_text_hint">#FFBDBDBD</color>
+    <!-- 主文字颜色 -->
+    <color name="color_text_primary">@color/black</color>
+    <!-- 二级文字颜色 -->
+    <color name="color_text_secondary">#7F000000</color>
+    <!-- 三级文字主颜色 -->
+    <color name="color_text_gray_sub">#FF999999</color>
+
+
+    <!-- 链接 -->
+    <color name="color_blue_link">#FF3E8DE5</color>
+</resources>

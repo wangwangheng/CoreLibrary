@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GridLayout">
+        <attr name="gridLayoutOrientation" format="integer">
+            <enum name="horizontal" value="1" />
+            <enum name="vertical" value="2" />
+        </attr>
+        <attr name="gridLayoutDivider" format="reference" />
+    </declare-styleable>
+</resources>

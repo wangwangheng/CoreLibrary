@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NestedLineGridView">
+        <attr name="rowSpacing" format="reference|dimension"/>
+        <attr name="columnSpacing" format="reference|dimension"/>
+        <attr name="columnCount" format="integer"/>
+    </declare-styleable>
+</resources>

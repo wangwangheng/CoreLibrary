@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="PopupDropdown" parent="@android:style/Animation" tools:ignore="ResourceName">
+        <item name="android:windowEnterAnimation">@anim/popup_dropdown_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_dropdown_exit</item>
+    </style>
+    <style name="PopupBottom" parent="@android:style/Animation" tools:ignore="ResourceName">
+        <item name="android:windowEnterAnimation">@anim/popup_bottom_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_bottom_exit</item>
+    </style>
+
+    <style name="PopupBottomTranslate" parent="@android:style/Animation" tools:ignore="ResourceName">
+        <item name="android:windowEnterAnimation">@anim/popup_bottom_enter_translate</item>
+        <item name="android:windowExitAnimation">@anim/popup_bottom_exit_translate</item>
+    </style>
+</resources>
