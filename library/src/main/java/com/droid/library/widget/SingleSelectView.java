@@ -62,7 +62,7 @@ public class SingleSelectView extends LinearLayout implements OnWheelScrollListe
         mMonthView.setLayoutParams(monthParams);
 
         // mMonthView
-        mMonthView.setViewAdapter(new DateArrayAdapter(getContext(), list, list[0]));
+        mMonthView.setViewAdapter(new DateArrayAdapter(getContext(), list));
         mMonthView.setCurrentItem(0);
 
         mMonthView.addScrollingListener(this);
@@ -106,14 +106,11 @@ public class SingleSelectView extends LinearLayout implements OnWheelScrollListe
     private class DateArrayAdapter extends ArrayWheelAdapter<String> {
         // Index of current item
         int currentItem;
-        // Index of item to be highlighted
-        String currentValue;
         /**
          * Constructor
          */
-        public DateArrayAdapter(Context context, String[] items, String current) {
+        public DateArrayAdapter(Context context, String[] items) {
             super(context, items);
-            this.currentValue = current;
             setTextSize(18);
         }
 
