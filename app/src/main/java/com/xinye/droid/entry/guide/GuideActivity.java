@@ -1,4 +1,4 @@
-package com.xinye.droid.app.entry.guide;
+package com.xinye.droid.entry.guide;
 
 import android.app.Activity;
 import android.content.Intent;

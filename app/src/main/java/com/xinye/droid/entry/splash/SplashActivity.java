@@ -1,4 +1,4 @@
-package com.xinye.droid.app.entry.splash;
+package com.xinye.droid.entry.splash;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,7 +13,7 @@ import com.droid.library.app.mvp.IUI;
 import com.droid.library.app.storage.sp.SPManagerDefault;
 import com.droid.library.thirdplatform.imageloader.CoreImageLoader;
 import com.xinye.app.R;
-import com.xinye.droid.app.entry.guide.GuideActivity;
+import com.xinye.droid.entry.guide.GuideActivity;
 import com.xinye.droid.app.storage.sp.SPKeys;
 import com.xinye.droid.main.MainActivity;
 import com.xinye.droid.user.UserManager;

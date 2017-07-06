@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.xinye.droid.app.entry.splash.SplashActivity"
+            android:name="com.xinye.droid.entry.splash.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/FullScreenTheme">
             <intent-filter>
@@ -19,7 +19,7 @@
         </activity>
 
         <activity
-            android:name="com.xinye.droid.app.entry.guide.GuideActivity"
+            android:name="com.xinye.droid.entry.guide.GuideActivity"
             android:screenOrientation="portrait"
             android:theme="@style/FullScreenTheme" />
         <activity

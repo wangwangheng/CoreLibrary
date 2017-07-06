@@ -1,4 +1,4 @@
-package com.xinye.droid.app.entry.splash;
+package com.xinye.droid.entry.splash;
 
 
 import com.droid.library.app.mvp.BasePresenter;

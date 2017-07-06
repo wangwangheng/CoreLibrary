@@ -25,7 +25,6 @@ public class AppApplication extends Application {
 
     private void initApplication() {
 
-        Logger.i("wangheng","#############Downloader init start:" + System.currentTimeMillis());
         // Gson
         GsonManager.getInstance().init();
 
