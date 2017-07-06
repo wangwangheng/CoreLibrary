@@ -18,7 +18,7 @@
     <!-- 二级文字颜色 -->
     <color name="color_text_secondary">#7F000000</color>
     <!-- 三级文字主颜色 -->
-    <color name="color_text_gray_sub">#FF999999</color>
+    <color name="color_text_sub">#FF999999</color>
 
 
     <!-- 链接 -->

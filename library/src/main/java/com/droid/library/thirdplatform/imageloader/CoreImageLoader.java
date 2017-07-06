@@ -26,11 +26,11 @@ import com.nostra13.universalimageloader.utils.StorageUtils;
 import java.io.File;
 
 /**
- * PartyImageLoader，对ImageLoader的简单封装
+ * CoreImageLoader，对ImageLoader的简单封装
  *
  * @author wangheng
  */
-public class PartyImageLoader implements IThirdPlatformManager {
+public class CoreImageLoader implements IThirdPlatformManager {
 
     /**
      * 无效的资源id *
@@ -58,7 +58,7 @@ public class PartyImageLoader implements IThirdPlatformManager {
     private DisplayImageOptions defaultImageOptions;
     private ImageLoaderConfiguration mConfiguration;
 
-    private PartyImageLoader() {
+    private CoreImageLoader() {
 
     }
 
@@ -67,7 +67,7 @@ public class PartyImageLoader implements IThirdPlatformManager {
      *
      * @return ReboImageLoader实例
      */
-    public static PartyImageLoader getInstance() {
+    public static CoreImageLoader getInstance() {
         return Singleton.INSTANCE;
     }
 
@@ -439,7 +439,7 @@ public class PartyImageLoader implements IThirdPlatformManager {
      * @author wangheng
      */
     private static final class Singleton {
-        private static final PartyImageLoader INSTANCE = new PartyImageLoader();
+        private static final CoreImageLoader INSTANCE = new CoreImageLoader();
     }
 }
 

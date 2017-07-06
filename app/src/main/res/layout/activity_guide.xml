@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpGuide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none" />
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/llGuide"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_marginBottom="7dip"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:visibility="gone"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/btnGuide"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|center_horizontal"-->
+        <!--android:layout_marginBottom="30dp"-->
+        <!--android:text="@string/guide_button"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:visibility="gone"-->
+        <!--android:background="@color/transparent"/>-->
+    <TextView
+        android:id="@+id/btnIgnore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/guide_ignore"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:background="@drawable/round_rect_white_stroke"/>
+
+</FrameLayout>
